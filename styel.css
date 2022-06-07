@@ -143,10 +143,16 @@ footer{
 
 @media(min-width: 700px){
 
+    body{
+        background-image: url("./images/bg-desktop.png");
+        background-size: contain;
+        background-position: bottom;
+        background-color: var(--very-dark-blue);
+    }
+
     .main{
         max-width: 900px;
         display: flex;
-        /* border: 1px solid red; */
         gap: 1.5em;
     }
 
