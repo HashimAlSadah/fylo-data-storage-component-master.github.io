@@ -123,6 +123,12 @@ body{
     transform: translate(-50%, 50%);
 }
 
+@media(max-width: 400px){
+    .free-space{
+        font-size: 1.6rem; 
+    }
+}
+
 .free-space span{
     color: var(--grayish-blue);
     font-size: 0.8rem;
